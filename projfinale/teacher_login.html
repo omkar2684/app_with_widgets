@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teacher Login</h1>
+        <form id="loginForm">
+            <div class="inputBox">
+                <input type="email" id="teacherEmail" placeholder="Email" required />
+            </div>
+            <div class="inputBox">
+                <input type="password" id="teacherPassword" placeholder="Password" required />
+            </div>
+            <div class="inputBox">
+                <button type="submit" id="loginButton">Login</button>
+            </div>
+            <div class="alert" id="errorAlert">Invalid credentials. Please try again.</div>
+        </form>
+        <div id="loading" class="alert">Loading...</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./teacher_login.js"></script>
+</body>
+</html>

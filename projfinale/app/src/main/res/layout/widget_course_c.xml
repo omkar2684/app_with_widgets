@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/widgetBackgroundC">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages for Course C"
+        android:textSize="18sp"
+        android:textColor="@color/widgetTextColorC"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/widgetMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No messages"
+        android:textSize="14sp"
+        android:textColor="@color/widgetTextColorC"
+        android:layout_below="@id/widgetTitle"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

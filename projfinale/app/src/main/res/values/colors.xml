@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Generic Widget -->
+    <color name="widgetBackground">#FFFFFF</color>
+    <color name="widgetTextColor">#000000</color>
+
+    <!-- Course A Widget -->
+    <color name="widgetBackgroundA">#FFEBEE</color>
+    <color name="widgetTextColorA">#B71C1C</color>
+
+    <!-- Course B Widget -->
+    <color name="widgetBackgroundB">#E8F5E9</color>
+    <color name="widgetTextColorB">#1B5E20</color>
+
+    <!-- Course C Widget -->
+    <color name="widgetBackgroundC">#E3F2FD</color>
+    <color name="widgetTextColorC">#0D47A1</color>
+
+    <color name="course_a_color">#B725C3</color> <!-- Example color -->
+    <color name="course_b_color">#33FF57</color>
+    <color name="course_c_color">#3357FF</color>
+
+</resources>

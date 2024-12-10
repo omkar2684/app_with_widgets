@@ -1,0 +1,143 @@
+[debug] [2024-12-01T23:05:40.777Z] ----------------------------------------------------------------------
+[debug] [2024-12-01T23:05:40.779Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-01T23:05:40.779Z] CLI Version:   13.27.0
+[debug] [2024-12-01T23:05:40.779Z] Platform:      win32
+[debug] [2024-12-01T23:05:40.779Z] Node Version:  v20.17.0
+[debug] [2024-12-01T23:05:40.779Z] Time:          Mon Dec 02 2024 04:35:40 GMT+0530 (India Standard Time)
+[debug] [2024-12-01T23:05:40.780Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-01T23:05:40.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-01T23:05:40.785Z] > authorizing via signed-in user (omkarambar@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\projfinale
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-01T23:06:58.243Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:06:58.243Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:06:58.246Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-01T23:06:59.215Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-01T23:06:59.215Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project finalproject-10130 (finalproject) 
+[info] 
+=== Dataconnect Setup
+[debug] [2024-12-01T23:07:38.464Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:38.464Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:38.464Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/finalproject-10130/billingInfo [none]
+[debug] [2024-12-01T23:07:38.955Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/finalproject-10130/billingInfo 200
+[debug] [2024-12-01T23:07:38.956Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/finalproject-10130/billingInfo {"name":"projects/finalproject-10130/billingInfo","projectId":"finalproject-10130","billingAccountName":"","billingEnabled":false}
+[info] i  dataconnect: ensuring required API sqladmin.googleapis.com is enabled... 
+[debug] [2024-12-01T23:07:38.957Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:38.958Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:38.958Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com [none]
+[debug] [2024-12-01T23:07:38.958Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com x-goog-quota-user=projects/finalproject-10130
+[debug] [2024-12-01T23:07:40.865Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com 200
+[debug] [2024-12-01T23:07:40.865Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com [omitted]
+[warn] !  dataconnect: missing required API sqladmin.googleapis.com. Enabling now... 
+[debug] [2024-12-01T23:07:40.866Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:40.866Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:40.866Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com:enable [none]
+[debug] [2024-12-01T23:07:40.866Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com:enable x-goog-quota-user=projects/finalproject-10130
+[debug] [2024-12-01T23:07:41.353Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com:enable 200
+[debug] [2024-12-01T23:07:41.353Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com:enable [omitted]
+[debug] [2024-12-01T23:07:51.359Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:51.359Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:51.360Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com [none]
+[debug] [2024-12-01T23:07:51.360Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com x-goog-quota-user=projects/finalproject-10130
+[debug] [2024-12-01T23:07:53.093Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com 200
+[debug] [2024-12-01T23:07:53.094Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/sqladmin.googleapis.com [omitted]
+[info] +  dataconnect: required API sqladmin.googleapis.com is enabled 
+[info] +  Wrote dataconnect\dataconnect.yaml 
+[info] +  Wrote dataconnect\schema\schema.gql 
+[info] +  Wrote dataconnect\connector\connector.yaml 
+[info] +  Wrote dataconnect\connector\queries.gql 
+[info] +  Wrote dataconnect\connector\mutations.gql 
+[info] i  If you'd like to add the generated SDK to your app your, run firebase init dataconnect:sdk 
+[info] i  If you'd like to provision a CloudSQL Postgres instance on the Firebase Data Connect no-cost trial:
+1. Please upgrade to the pay-as-you-go (Blaze) billing plan. Visit the following page:
+     https://console.firebase.google.com/project/finalproject-10130/usage/details
+2. Run firebase init dataconnect again to configure the Cloud SQL instance.
+3. Run firebase deploy --only dataconnect to deploy your Data Connect service. 
+[info] 
+=== Firestore Setup
+[debug] [2024-12-01T23:07:53.126Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:53.126Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:53.126Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/firestore.googleapis.com [none]
+[debug] [2024-12-01T23:07:53.126Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/firestore.googleapis.com x-goog-quota-user=projects/finalproject-10130
+[debug] [2024-12-01T23:07:54.815Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/firestore.googleapis.com 200
+[debug] [2024-12-01T23:07:54.815Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/finalproject-10130/services/firestore.googleapis.com [omitted]
+[debug] [2024-12-01T23:07:54.816Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:54.816Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:54.816Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default) [none]
+[debug] [2024-12-01T23:07:55.086Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default) 200
+[debug] [2024-12-01T23:07:55.087Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default) {"name":"projects/finalproject-10130/databases/(default)","uid":"d201c11f-c672-418c-bbae-4cb85120d404","createTime":"2024-11-17T20:04:00.335147Z","updateTime":"2024-11-17T20:04:00.335147Z","locationId":"asia-south1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2024-12-01T22:07:54.566719Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"j","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IPCTk4TYh4oDMKm3moCX5IkD"}
+[debug] [2024-12-01T23:07:55.087Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-12-01T23:07:55.087Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-12-01T23:07:55.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-01T23:07:55.088Z] > authorizing via signed-in user (omkarambar@gmail.com)
+[debug] [2024-12-01T23:07:55.088Z] [iam] checking project finalproject-10130 for permissions ["firebase.projects.get"]
+[debug] [2024-12-01T23:07:55.088Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:55.088Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:07:55.088Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/finalproject-10130:testIamPermissions [none]
+[debug] [2024-12-01T23:07:55.088Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/finalproject-10130:testIamPermissions x-goog-quota-user=projects/finalproject-10130
+[debug] [2024-12-01T23:07:55.088Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/finalproject-10130:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-01T23:07:56.553Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/finalproject-10130:testIamPermissions 200
+[debug] [2024-12-01T23:07:56.553Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/finalproject-10130:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-12-01T23:19:42.613Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:42.613Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:42.614Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/releases pageSize=10&pageToken=
+[debug] [2024-12-01T23:19:44.187Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/releases 200
+[debug] [2024-12-01T23:19:44.188Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/releases {"releases":[{"name":"projects/finalproject-10130/releases/cloud.firestore","rulesetName":"projects/finalproject-10130/rulesets/8342bf33-b939-4a9c-811e-8772c5c548e8","createTime":"2024-11-17T20:04:08.789050Z","updateTime":"2024-11-21T06:52:33.410142Z"}]}
+[debug] [2024-12-01T23:19:44.188Z] Found ruleset: projects/finalproject-10130/rulesets/8342bf33-b939-4a9c-811e-8772c5c548e8
+[debug] [2024-12-01T23:19:44.189Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:44.189Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:44.189Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/rulesets/8342bf33-b939-4a9c-811e-8772c5c548e8 [none]
+[debug] [2024-12-01T23:19:44.522Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/rulesets/8342bf33-b939-4a9c-811e-8772c5c548e8 200
+[debug] [2024-12-01T23:19:44.523Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/finalproject-10130/rulesets/8342bf33-b939-4a9c-811e-8772c5c548e8 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-12-01T23:19:49.347Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:49.347Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:49.348Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:49.348Z] Checked if tokens are valid: true, expires at: 1733097699332
+[debug] [2024-12-01T23:19:49.348Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2024-12-01T23:19:49.349Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2024-12-01T23:19:49.591Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2024-12-01T23:19:49.592Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/finalproject-10130/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[debug] [2024-12-01T23:19:49.600Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2024-12-01T23:19:49.600Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/finalproject-10130/databases/(default)/collectionGroups/-/indexes {}
+[info] 
+=== Genkit Setup
+[debug] [2024-12-01T23:19:49.811Z] Error: spawnSync npm ENOENT
+    at Object.spawnSync (node:internal/child_process:1124:20)
+    at spawnSync (node:child_process:877:24)
+    at execFileSync (node:child_process:920:15)
+    at getGenkitVersion (C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\genkit\index.js:29:58)
+    at doSetup (C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\genkit\index.js:56:30)
+    at init (C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:15)
+    at init (C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:42:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.

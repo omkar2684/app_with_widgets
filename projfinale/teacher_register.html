@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Register</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Teacher Register</h2>
+        <form id="registerForm">
+            <div class="inputBox">
+                <input type="email" id="teacherEmail" placeholder="Email" required>
+            </div>
+            <div class="inputBox">
+                <input type="password" id="teacherPassword" placeholder="Password" required>
+            </div>
+            <div class="inputBox">
+                <button type="submit">Register</button>
+            </div>
+            <div class="alert" id="errorAlert">Error: Could not register. Please try again.</div>
+            <div id="loading" class="alert">Loading...</div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./teacher_registration.js"></script>
+</body>
+</html>

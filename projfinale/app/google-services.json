@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "118016217003",
+    "firebase_url": "https://testsuject1-311c2-default-rtdb.firebaseio.com",
+    "project_id": "testsuject1-311c2",
+    "storage_bucket": "testsuject1-311c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118016217003:android:b9e774be91849e164f0cee",
+        "android_client_info": {
+          "package_name": "com.example.despuapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkBiZsSQS1raaPlXytkO-PosXPg7dTpSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
